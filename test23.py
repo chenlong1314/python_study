@@ -19,4 +19,9 @@ def retrieve_dji_list():
 
 dji_list = retrieve_dji_list()
 djidf = pd.DataFrame(dji_list)
+
+cols=['code','names','lasttrade']
+djidf.colmuns=cols
+
+
 print(djidf)
