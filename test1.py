@@ -1,6 +1,6 @@
 # coding=utf-8
 
-name =raw_input('请输入员工姓名：\n')
+name =input('请输入员工姓名：\n')
 job ='dev'
 
 print ("员工姓名：{}".format(name))
