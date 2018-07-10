@@ -9,7 +9,7 @@ mail_user = "chenlong@aotur.com"  # 用户名
 mail_pass = "Chen123456"  # 口令
 
 sender = 'chenlong@aotur.com'
-receivers = ['870510789@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
+receivers = ['937290376@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
 
 message = MIMEText('山歌是个大傻吊', 'plain', 'utf-8')
 message['From'] = Header("猜猜", 'utf-8')
